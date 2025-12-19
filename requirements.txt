@@ -3,6 +3,8 @@ plotly
 streamlit
 numpy
 matplotlib.pyplot
+matplotlib
 seaborn
+plotly.express
 plotly
 warnings
