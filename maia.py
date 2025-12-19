@@ -193,7 +193,7 @@ def show_data_reading():
                     )
 
         st.write("---")
-        apply_filters = st.button("🔍 Aplică filtre")
+        apply_filters = st.button("Aplică filtre")
 
         if apply_filters:
             df_filtered = df.copy()
@@ -829,4 +829,5 @@ if __name__ == "__main__":
     elif selected_module == " 4 - Selectare coloană categoriala, afisare":
          show_categorial_data()
     elif selected_module == " 5 - Detectarea Valorilor Anormale":
+
          show_descriptive_stats()
